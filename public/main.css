@@ -1,0 +1,20 @@
+
+.formWrapper {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form {
+  align-self: center;
+}
+
+.name-input {
+  width: 100%
+}
+
+.list-link{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}

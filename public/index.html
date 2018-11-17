@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Submit your post</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+  <div class="formWrapper">
+    <form class="form pure-form pure-form-stacked" action="/new" method="POST">
+        <fieldset>
+          <legend>Submit a new post</legend>
+          <input class="name-input" name="name" placeholder="Name"/>
+          <textarea name="text" rows="10" cols="50" placeholder="Write stuff here" /></textarea>
+          <button type="submit" class="pure-button pure-button-primary" >Submit</button>
+        </fieldset>
+    </form>
+  </div>
+  <a href="/list" class="list-link pure-button pure-button-active" >
+    View Weekly Posts
+  </a>
+</body>
+</html>
